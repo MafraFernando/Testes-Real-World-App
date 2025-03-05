@@ -1,6 +1,6 @@
-import LoginPage from "../../pages/loginPage";
-import dataUser from "../../fixtures/dataUser.json";
-import transferPage from "../../pages/transferPage";
+import LoginPage from "../pages/loginPage";
+import dataUser from "../fixtures/dataUser.json";
+import transferPage from "../pages/transferPage";
 
 const login = new LoginPage()
 const transfer = new transferPage()
