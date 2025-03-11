@@ -1,27 +1,25 @@
 # Cypress-RealWorld-App Tests
 
-## Estrutura dos Exercícios
-Os testes estão organizados em pastas e casos de teste.
+## Exercise Structure
+The tests are organized into folders and test cases.
 
 ---
 
-## Casos de Teste
+## Test Cases
 
-### Exercício 1: Validação de Login
-- Teste 1: Validação com nome de usuário e senha válidos.
-- Teste 2: Validação com nome de usuário e senha inválidos, garantindo que uma mensagem de erro seja exibida.
-- Teste 3: Registro de usuário com dados válidos.
-- Teste 4: Registro de usuário com informações incompletas, exibindo uma mensagem de erro.
-
----
-
-### Exercício 2: Transações
-- Teste 1: Envio de dinheiro com saldo suficiente.
-- Teste 2: Envio de dinheiro com saldo insuficiente.
-- Teste 3: Visualização do histórico de transações realizadas.
-  - Nota: Garantir que o usuário sem transações mostre uma mensagem indicando a ausência de registros.
+### Exercise 1: Login Validation
+- Test 1: Validation with valid username and password.
+- Test 2: Validation with invalid username and password, ensuring that an error message is displayed.
+- Test 3: User registration with valid data.
+- Test 4: User registration with incomplete information, displaying an error message.
 
 ---
+
+### Exercise 2: Transactions
+- Test 1: Sending money with sufficient balance.
+- Test 2: Sending money with insufficient balance.
+- Test 3: Viewing the history of transactions made.
+- Note: Ensure that the user with no transactions shows a message indicating the absence of records.
 
 
 
