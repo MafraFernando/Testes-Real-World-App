@@ -15,13 +15,17 @@ The tests are organized into folders and test cases.
 
 ---
 
-### Exercise 2: Transactions
+### Exercise 2: Tranfer
 - Test 1: Sending money with sufficient balance.
 - Test 2: Sending money with insufficient balance.
-- Test 3: Viewing the history of transactions made.
-- Note: Ensure that the user with no transactions shows a message indicating the absence of records.
 
+---
 
+### Exercise 3: Transaction History
+- Test 1: Viewing the history of transactions made.
+- Test 2: Ensure that the user with no transactions shows a message indicating the absence of records.
+
+---
 
 <p align="center">
   <!-- We use two SVGs here so that this displays correctly
