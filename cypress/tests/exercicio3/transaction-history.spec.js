@@ -1,6 +1,6 @@
-import LoginPage from "../pages/loginPage";
-import dataUser from "../fixtures/dataUser.json";
-import historyPage from "../pages/historyPage";
+import LoginPage from "../../pages/loginPage";
+import dataUser from "../../fixtures/dataUser.json";
+import historyPage from "../../pages/historyPage";
 
 const login = new LoginPage()
 const history = new historyPage()

@@ -23,8 +23,8 @@ class historyPage {
     noHistoryTransaction() {
         cy.get(this.selectorsList().mineButton).click()
         cy.get(this.selectorsList().historyDate).click()
-        cy.get(this.selectorsList().genericDateFilter).eq(200).click( {force: true} )
-        cy.get(this.selectorsList().genericDateFilter).eq(201).click( {force: true} )
+        cy.get(this.selectorsList().genericDateFilter).eq(20).click( {force: true} )
+        cy.get(this.selectorsList().genericDateFilter).eq(21).click( {force: true} )
         cy.get(this.selectorsList().noTransactionsAlert).contains('No Transactions')
     }
 

@@ -11,7 +11,7 @@
       "phoneNumber": "398-225-9900",
       "avatar": "https://avatars.dicebear.com/api/human/uBmeaz5pX.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 150953,
+      "balance": 18000000150953,
       "createdAt": "2023-03-09T22:26:40.101Z",
       "modifiedAt": "2024-03-07T10:07:57.580Z"
     },
@@ -41,7 +41,7 @@
       "phoneNumber": "887-309-1593",
       "avatar": "https://avatars.dicebear.com/api/human/_XblMqbuoP.svg",
       "defaultPrivacyLevel": "contacts",
-      "balance": 158880,
+      "balance": 0,
       "createdAt": "2023-05-21T05:01:54.594Z",
       "modifiedAt": "2024-03-07T14:11:52.161Z"
     },
@@ -74,6 +74,17 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "Lbi-Wb-6V",
+      "uuid": "52b97a7a-e1a4-48f7-beaa-fe83bfa50974",
+      "firstName": "Fernando",
+      "lastName": "Mafra",
+      "username": "fernandoqa",
+      "password": "$2a$10$GJvHfnEg5erbzGsz2LttQuRRZ8tJ62jBAU7UNkOHrubUleYyPdvru",
+      "balance": 0,
+      "createdAt": "2025-03-11T05:17:39.811Z",
+      "modifiedAt": "2025-03-11T05:17:39.811Z"
     }
   ],
   "contacts": [
@@ -9855,6 +9866,18 @@
       "requestResolvedAt": "",
       "createdAt": "2023-11-10T07:15:28.127Z",
       "modifiedAt": "2024-03-07T21:58:09.668Z"
+    },
+    {
+      "id": "D-GIhAdz3",
+      "uuid": "493359a3-c502-4148-a81c-a9e4199d7666",
+      "amount": 18000000000000,
+      "description": "this transfer should be impossible due to lack of funds",
+      "receiverId": "uBmeaz5pX",
+      "senderId": "_XblMqbuoP",
+      "privacyLevel": "contacts",
+      "status": "complete",
+      "createdAt": "2025-03-11T05:24:46.561Z",
+      "modifiedAt": "2025-03-11T05:24:46.561Z"
     }
   ],
   "likes": [
@@ -10431,6 +10454,16 @@
       "isRead": false,
       "createdAt": "2024-02-01T18:53:45.699Z",
       "modifiedAt": "2024-03-07T17:13:52.110Z"
+    },
+    {
+      "id": "KrArEZaZ_k",
+      "uuid": "171374aa-7427-4d62-9869-5e50976372ba",
+      "userId": "uBmeaz5pX",
+      "transactionId": "D-GIhAdz3",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-03-11T05:24:46.604Z",
+      "modifiedAt": "2025-03-11T05:24:46.604Z"
     }
   ],
   "banktransfers": [
@@ -10983,6 +11016,16 @@
       "transactionId": "gaggAe7wNoiC",
       "createdAt": "2023-03-24T22:18:19.407Z",
       "modifiedAt": "2024-03-07T13:32:42.472Z"
+    },
+    {
+      "id": "5WpdjmE_Ot",
+      "uuid": "27d63e69-3d29-47c0-aa9b-d2836d44e955",
+      "userId": "_XblMqbuoP",
+      "amount": 17999999841120,
+      "transactionId": "D-GIhAdz3",
+      "type": "withdrawal",
+      "createdAt": "2025-03-11T05:24:46.574Z",
+      "modifiedAt": "2025-03-11T05:24:46.574Z"
     }
   ]
 }

@@ -3,7 +3,7 @@ class transferPage {
         const selectors = {
             newTransferButton: "[data-test='nav-top-new-transaction']",
             searchPlaceholder: "[type='text']",
-            searchFirstList: "[data-test='user-list-item-hh_73cZ4F']",
+            searchFirstList: "[data-test='user-list-item-uBmeaz5pX']",
             amountPlaceholder: "[placeholder='Amount']",
             notePlaceholder: "[placeholder='Add a note']",
             payButton: "[data-test='transaction-create-submit-payment']",

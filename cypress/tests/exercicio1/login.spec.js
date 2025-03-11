@@ -1,5 +1,5 @@
-import LoginPage from "../pages/loginPage";
-import dataUser from "../fixtures/dataUser.json";
+import LoginPage from "../../pages/loginPage";
+import dataUser from "../../fixtures/dataUser.json";
 
 const login = new LoginPage()
 
